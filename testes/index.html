@@ -17,112 +17,55 @@
         }
 
         button {
+            width: 20%;
             padding: 30px;
-            margin: 5px;
             display: inline-block;
             position: relative;
-            left: 10%;;
+            left: 9%;
+            margin: 0;
         }
 
-        .fileira1 {
-            position: relative;
-            left: 7%;
-            margin: 1px 0px;
-        }
-
-        .btmaior1 {
-            width: 18%;
-            position: relative;
-            left: 14px;
-        }
-
-        .btmaior2 {
-            width: 18%;
-            position: relative;
-            left: 13px;
-        }
-
-        .btapagar {
+        #btapagar {
             height: 79px;
-            width: 18%;
             position: relative;
-            left: 12px;
             top: 2px;
         }
-
-        .btx {
-            width: 18%;
-            position: relative;
-            left: 7px;
-        }
-
-        .btfileira {
-            display: inline;
-            width: 18%;
-            margin: 2px -1px 0px 2px;
-        }
-
-        .btmais {
-            width: 18%;
-            position: relative;
-            left: 35px;
-        }
-        .btmenos {
-            width: 18%;
-            position: relative;
-            left: 35px;
-        }
-
-        .btdiv {
-            width: 18%;
-            position: relative;
-            left: 35px;
-        }
-
-        .btvirgula {
-            width: 18%;
-        }
-
-        .btigual {
-            width: 18%;
-            position: relative;
-            left: 35px;
-        }
+        
     </style>
 </head>
 <body>
     <h1>Calculadora</h1>
 
     <main>
-        <div class="fileira1">
-            <button class="btmaior1">%</button>
-            <button class="btmaior2">C</button>
-            <button class="btapagar">&#9003;</button>
-            <button class="btx">X</button>
+        <div>
+            <button>%</button>
+            <button>C</button>
+            <button id="btapagar">&#9003;</button>
+            <button>X</button>
         </div>
-        <div class="btfileira">
+        <div>
             <button>7</button>
             <button>8</button>
             <button>9</button>
-            <button class="btmais" onclick="btsoma()">+</button>
+            <button onclick="btsoma()">+</button>
         </div>
-        <div class="btfileira">
+        <div>
             <button>4</button>
             <button>5</button>
             <button>6</button>
-            <button class="btmenos">-</button>
+            <button>-</button>
         </div>
-        <div class="btfileira">
+        <div>
             <button onclick="bt1()">1</button>
             <button onclick="bt2()">2</button>
             <button>3</button>
-            <button class="btdiv">&divide;</button>
+            <button>&divide;</button>
         </div>
-        <div class="btfileira">
+        <div>
             <button>&copy;</button>
             <button>0</button>
-            <button class="btvirgula">,</button>
-            <button class="btigual">=</button>
+            <button>,</button>
+            <button>=</button>
         </div>
     </main>
 
