@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -131,4 +137,89 @@ form label, form legend {
 
 fieldset {
     border: none;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    transition: 1s all;
+    cursor: pointer;    
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.1);;
+}
+
+table {
+    margin: 20px 40px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+    
+}
+
+/* Tela inicial */ 
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video {
+    width: 50%;
+    margin: 1em auto;
 }
